@@ -12,6 +12,7 @@
 }
 .i-right{
     flex: 1;
+    position: relative;
 }
 .i-left-wrapper{
     padding: 50px;
@@ -25,6 +26,23 @@
 font-size: 30px;
 font-weight: 300;
 
+}
+.i-img{
+    width: 140%;
+    height: 116%;
+    object-fit: cover;
+    position: absolute;
+    
+    
+}
+.i-bg{
+    clip-path: polygon(25% 0%, 100% 0, 100% 50%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: mediumseagreen;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .i-name{
