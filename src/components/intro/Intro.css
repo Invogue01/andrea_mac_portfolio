@@ -16,7 +16,7 @@
 }
 .i-left-wrapper{
     padding: 50px;
-    height: 70%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,9 +27,15 @@ font-size: 30px;
 font-weight: 300;
 
 }
+.i-scroll{
+    height: 10%;
+    width: 10%;
+    position:absolute;
+    bottom: 20px;
+}
 .i-img{
     width: 140%;
-    height: 116%;
+    height: 126%;
     object-fit: cover;
     position: absolute;
     
