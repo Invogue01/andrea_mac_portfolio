@@ -1,13 +1,16 @@
-import React from 'react'
-import "./product.css"
+import React from "react";
+import "./product.css";
 
 const Product = () => {
   return (
-    <div>
-
-
+    <div className="p">
+      <div className="p-browser">
+        <div className="p-circle"></div>
+        <div className="p-circle"></div>
+        <div className="p-circle"></div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Product
+export default Product;

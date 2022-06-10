@@ -1,14 +1,25 @@
 .pl {
-
+padding: 50px 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
 }
 
 .pl-text{
-
+width: 65%;
 }
 
 .pl-title{
-
+font-size: 50px;
+font-weight: 600;
 }
 .pl-description{
-    
+   margin: 20px 0px; 
+}
+.pl-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
 }
