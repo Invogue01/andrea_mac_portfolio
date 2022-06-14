@@ -1,6 +1,7 @@
 import React from "react";
 import "./productList.css";
 import Product from "../product/Product";
+import { products } from "../../data";
 const ProductList = () => {
   return (
     <div className="pl">
@@ -9,12 +10,9 @@ const ProductList = () => {
         <p className="pl-description">Short description about this Project</p>
       </div>
       <div className="pl-list">
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
+        {products.map((item) => (
+          <Product key={item.id} img={item.img} link={item.link} />
+        ))}
       </div>
     </div>
   );
