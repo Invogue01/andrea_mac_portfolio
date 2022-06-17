@@ -12,6 +12,8 @@ height: 20px;
 background-color: beige;
 display: flex;
 align-items: center;
+position: sticky;
+z-index: 2;
 }
 .p-circle{
 width: 6px;
@@ -23,4 +25,8 @@ border-radius: 50%;
 
 .p-img{
    width: 100%;
+   transition: all 10s ease;
+}
+.p:hover .p-img{
+   transform: translateY(-100%);
 }
