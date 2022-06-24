@@ -1,10 +1,11 @@
 import React from "react";
 import "./product.css";
 
-const Product = ({ img, link }) => {
+const Product = ({ img, link, title }) => {
   return (
     <div className="p">
       <div className="p-browser">
+        {title}
         <div className="p-circle"></div>
         <div className="p-circle"></div>
         <div className="p-circle"></div>
