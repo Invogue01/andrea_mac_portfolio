@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/andrea_mac_portfolio/static/css/main.7c438cc8.css",
+    "main.css": "/andrea_mac_portfolio/static/css/main.4d670221.css",
     "main.js": "/andrea_mac_portfolio/static/js/main.2a62cfb5.js",
     "static/media/me.png": "/andrea_mac_portfolio/static/media/me.4382e5949c99a697d6a2.png",
     "static/media/coding.png": "/andrea_mac_portfolio/static/media/coding.ef7b8dc3573551fdbbee.png",
@@ -11,11 +11,11 @@
     "static/media/moon.png": "/andrea_mac_portfolio/static/media/moon.80fb8725103f8a1c8450.png",
     "static/media/phone.png": "/andrea_mac_portfolio/static/media/phone.a40c2be715452ecddb39.png",
     "index.html": "/andrea_mac_portfolio/index.html",
-    "main.7c438cc8.css.map": "/andrea_mac_portfolio/static/css/main.7c438cc8.css.map",
+    "main.4d670221.css.map": "/andrea_mac_portfolio/static/css/main.4d670221.css.map",
     "main.2a62cfb5.js.map": "/andrea_mac_portfolio/static/js/main.2a62cfb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c438cc8.css",
+    "static/css/main.4d670221.css",
     "static/js/main.2a62cfb5.js"
   ]
 }
