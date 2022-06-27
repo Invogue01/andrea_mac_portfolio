@@ -1,12 +1,9 @@
 import React from "react";
 import "./Intro.css";
 import Me from "../../images/me.png";
-import fileSaver from "file-saver";
-import CV from "../../files/Andrea_Lea-Trengrouse.pdf";
 
-const saveFile = () => {
-  fileSaver.saveAs(process.env.REACT_APP_CLIENT_URL + { CV }, "AndreaCV");
-};
+import MyCV from "../../files/Andrea_Lea-Trengrouse_CV.pdf";
+
 const intro = () => {
   return (
     <div className="i">
@@ -14,9 +11,7 @@ const intro = () => {
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, My name is</h2>
           <h1 className="i-name">Andrea Lea-Trengrouse</h1>
-          <button className="cv" onClick={saveFile}>
-            Download File
-          </button>
+
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Full Stack Web Developer</div>
@@ -30,6 +25,10 @@ const intro = () => {
             in JavaScript, CSS, HTM5, MERN and responsive web design.
           </p>
         </div>
+        <a href={MyCV} download="Andrea_Lea-Trengrouse_CV.pdf">
+          {" "}
+          Download CV{" "}
+        </a>
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
