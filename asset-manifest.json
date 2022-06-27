@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/andrea_mac_portfolio/static/css/main.7c438cc8.css",
+    "main.js": "/andrea_mac_portfolio/static/js/main.c93827ac.js",
+    "static/media/me.png": "/andrea_mac_portfolio/static/media/me.4382e5949c99a697d6a2.png",
+    "static/media/coding.png": "/andrea_mac_portfolio/static/media/coding.ef7b8dc3573551fdbbee.png",
+    "static/media/award.png": "/andrea_mac_portfolio/static/media/award.254a199033d6c1f9065d.png",
+    "static/media/address.png": "/andrea_mac_portfolio/static/media/address.e2bd4da6977da6c9105d.png",
+    "static/media/Andrea_Lea-Trengrouse_CV.pdf": "/andrea_mac_portfolio/static/media/Andrea_Lea-Trengrouse_CV.30320a04c6ed07104ac6.pdf",
+    "static/media/email.png": "/andrea_mac_portfolio/static/media/email.f2e000b80d067eb62dd0.png",
+    "static/media/sun.png": "/andrea_mac_portfolio/static/media/sun.4df795b5b2b57f2a16a7.png",
+    "static/media/moon.png": "/andrea_mac_portfolio/static/media/moon.80fb8725103f8a1c8450.png",
+    "static/media/phone.png": "/andrea_mac_portfolio/static/media/phone.a40c2be715452ecddb39.png",
+    "index.html": "/andrea_mac_portfolio/index.html",
+    "main.7c438cc8.css.map": "/andrea_mac_portfolio/static/css/main.7c438cc8.css.map",
+    "main.c93827ac.js.map": "/andrea_mac_portfolio/static/js/main.c93827ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c438cc8.css",
+    "static/js/main.c93827ac.js"
+  ]
+}
