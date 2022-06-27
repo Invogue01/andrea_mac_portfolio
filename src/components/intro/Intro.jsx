@@ -1,6 +1,12 @@
 import React from "react";
 import "./Intro.css";
 import Me from "../../images/me.png";
+import fileSaver from "file-saver";
+import CV from "../../files/Andrea_Lea-Trengrouse.pdf";
+
+const saveFile = () => {
+  fileSaver.saveAs(process.env.REACT_APP_CLIENT_URL + { CV }, "AndreaCV");
+};
 const intro = () => {
   return (
     <div className="i">
@@ -8,6 +14,9 @@ const intro = () => {
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, My name is</h2>
           <h1 className="i-name">Andrea Lea-Trengrouse</h1>
+          <button className="cv" onClick={saveFile}>
+            Download File
+          </button>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Full Stack Web Developer</div>
